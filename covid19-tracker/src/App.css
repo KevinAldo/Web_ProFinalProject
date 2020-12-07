@@ -1,3 +1,8 @@
+body{
+  background-image:url("covid.jpg");
+  background-repeat: no-repeat;
+  background-size: 1380px 700px;
+}
 .main-container{
   background-color: white;
   border-width: 5px;
@@ -17,10 +22,66 @@
   padding: 10px;
 }
 .card-container{
-  border-width: 2px;
+  border-width: 5px;
   border-color: black;
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 10px;
   padding: 10px;
+}
+.dataNumber1{
+  font-size: 1.5rem  ;
+  width: 150px;
+  height: 150px;
+
+  margin: 2px;
+  padding: 12px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color:orange;
+}
+
+.dataNumber2{
+  font-size: 1.5rem  ;
+  width: 150px;
+  height: 150px;
+
+  margin: 2px;
+  padding: 12px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color:rgba(218, 7, 7, 0.856);
+}
+
+
+.dataNumber3{
+  font-size: 1.5rem  ;
+  width: 150px;
+  height: 150px;
+
+  margin: 2px;
+  padding: 12px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color:greenyellow;
+
+}
+.kotak{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.kotak2{
+  float: left;
+  display: flex;
+ 
 }

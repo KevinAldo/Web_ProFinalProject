@@ -1,6 +1,6 @@
 import Home from "./Home";
 import World from "./World";
-import Indonesia from "./Indonesia";
+import Indo from "./Indonesia";
 import Provinsi from "./Provinsi";
 
-export { Home, World, Indonesia, Provinsi};
+export { Home, World, Indo, Provinsi};

@@ -1,11 +1,12 @@
 import React from 'react'
+import Indonesia from '../../API/indo'
 
-const Indonesia = () => {
+const Indo = () => {
     return (
         <div>
-            
+            <Indonesia />
         </div>
     )
 }
 
-export default Indonesia;
+export default Indo;

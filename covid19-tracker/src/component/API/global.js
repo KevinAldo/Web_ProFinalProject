@@ -23,6 +23,8 @@ const Global = () => {
 
 
   return(
+  <div>
+    <h1 style={{ fontFamily: "Times New Roman", fontSize: "60px" }}>Jumlah Kasus Seluruh Dunia</h1>
     <div className={styles.container}>
       <Grid container spacing={3} justify="center">
         <Grid item component={Card} className={cx(styles.card, styles.confirmed)}>
@@ -54,8 +56,7 @@ const Global = () => {
         </Grid>
       </Grid>
     </div>
-);
-
-  
+  </div>
+  );
 };
 export default Global;

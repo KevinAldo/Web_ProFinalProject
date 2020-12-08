@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import { Card, Typography, Grid } from '@material-ui/core';
 import styles from './Style.module.css';
@@ -6,7 +6,7 @@ import styles from './Style.module.css';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 
-const Global = () => {
+function Global () {
     const [confirmed, setConfirmed] = useState("");
     const [deaths, setDeaths] = useState("");
     const [recovered, setRecovered] = useState("");
@@ -20,7 +20,6 @@ const Global = () => {
        setRecovered(response.data.recovered.value);
       })  
    }, []);
-
 
   return(
   <div>

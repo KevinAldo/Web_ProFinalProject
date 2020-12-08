@@ -6,12 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar'
 import { Nav } from 'react-bootstrap';
 
-const App = () =>{
+function App () {
     return(
         <Router>
             <div>
               <Navbar expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="/Home">COVID-19 TRACKER</Navbar.Brand>
+                <Navbar.Brand href="/">COVID-19 TRACKER</Navbar.Brand>
                 <Nav className="ml-auto">
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/World">World</Nav.Link>

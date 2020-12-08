@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-const Header = () =>{
+function Header () {
     return (
       <div className="header-container">  
         <h1>Covid19 Tracker</h1>

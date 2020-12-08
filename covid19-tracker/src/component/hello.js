@@ -1,7 +1,8 @@
-const Hello = () =>{
+function Hello () {
     return(
       <>
-      <p>Hello, welcome to my Final Project</p>
+      <h1 style={{ fontFamily: "Times New Roman", fontSize: "25px" }}>Hello, welcome to my Final Project
+      <p>Likuayang, Kevin Aldo - S21810162</p></h1>
       </>
     );
   };

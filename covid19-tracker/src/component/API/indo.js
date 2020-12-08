@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import { Card, Typography, Grid } from '@material-ui/core';
 import styles from './Style.module.css';
@@ -6,7 +6,7 @@ import styles from './Style.module.css';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 
-const Indonesia = () => {
+function Indonesia () {
   const [jumlahKasus, setJumlahKasus] = useState("");
   const [meninggal, setMeninggal] = useState("");
   const [sembuh, setSembuh] = useState("");
@@ -21,7 +21,6 @@ const Indonesia = () => {
      setSembuh(response.data.sembuh);
     })  
  }, []);
-
 
   return(
   <div>
